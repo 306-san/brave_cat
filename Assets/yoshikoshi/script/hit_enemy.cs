@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyCollision : MonoBehaviour {
+public class hit_enemy: MonoBehaviour {
     private AudioSource sound;
 	// Use this for initialization
 	void Start () {
