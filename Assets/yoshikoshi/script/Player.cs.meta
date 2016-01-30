@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 03fd5ac297682584d8c8807d0672c5da
+timeCreated: 1454146362
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - BackSprite: {fileID: 21300000, guid: 78123db11fc81824e9ec9ee1a15b3bb5, type: 3}
+  - FrontSprite: {fileID: 21300000, guid: 4e7b8a2fa8bf94b43909af0550739aa0, type: 3}
+  - LeftSprite: {fileID: 21300000, guid: 1e76e31e8923b8b4286cd9849b8c1440, type: 3}
+  - RightSprite: {fileID: 21300000, guid: 990f5960eec2a9742a0d021935f2abad, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
