@@ -4,10 +4,6 @@ using System.Collections;
 public class Player : MonoBehaviour
 {
     public float speed = 5;
-    public bool Back;
-    public bool Front;
-    public bool Left;
-    public bool Right;
     [SerializeField]
     Animator mAnimator; //InspectorでAnimatorを指定
 
