@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 5;
+    public float speed = 10;
     public float hungry = 1;
     private AudioSource sound;
     [SerializeField]

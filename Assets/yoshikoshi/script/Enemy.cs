@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
 {
     Animator animator;
     GameObject player;
-    float EnemySpeed = 0.025f;
+    float EnemySpeed = 0.075f;
     void Start()
     {
 
