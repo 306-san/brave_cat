@@ -10,6 +10,8 @@ public class Player_ito2 : MonoBehaviour
     Slider slider;
     [SerializeField]
     Animator mAnimator;
+    public GameObject fish;
+    bool chk_fish = false;
 
     // Use this for initialization
     void Start()
@@ -49,6 +51,12 @@ public class Player_ito2 : MonoBehaviour
         else
         {
             hungry = 0;
+        }
+
+        if (hungry <= 0.5 && chk_fish == false) {
+          chk_fish = true;
+          Debug.Log("hpyabai!!");
+          Instantiate(fish,new Vector3(this.transform.position.x+Random.Range (1, 5),this.transform.position.x+Random.Range (1, 5),0),Quaternion.identity);
         }
 
         slider.value = hungry;
