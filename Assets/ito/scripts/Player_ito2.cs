@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Player_ito2 : MonoBehaviour
 {
-    public float speed = 5;
+    public float speed = 10;
     public float hungry = 1;
     private AudioSource sound;
     Slider slider;
@@ -51,6 +51,7 @@ public class Player_ito2 : MonoBehaviour
         else
         {
             hungry = 0;
+            Application.LoadLevel("sample1");
         }
 
         if (hungry <= 0.5 && chk_fish == false) {
