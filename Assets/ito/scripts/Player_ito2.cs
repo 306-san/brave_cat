@@ -27,22 +27,22 @@ public class Player_ito2 : MonoBehaviour
     {
         if (hungry > 0)
         {
-            if (Input.GetKey("up"))
+            if (Input.GetKey("up") || Input.GetAxis ("Vertical")  > 0)
             {
                 mAnimator.SetInteger("Direction", 1);
                 hungry -= 0.001f;
             }
-            else if (Input.GetKey("down"))
+            else if (Input.GetKey("down") || Input.GetAxis ("Vertical")  < 0)
             {
                 mAnimator.SetInteger("Direction", 2);
                 hungry -= 0.001f;
             }
-            else if (Input.GetKey("left"))
+            else if (Input.GetKey("left") || Input.GetAxis ("Horizontal") < 0)
             {
                 mAnimator.SetInteger("Direction", 3);
                 hungry -= 0.001f;
             }
-            else if (Input.GetKey("right"))
+            else if (Input.GetKey("right") || Input.GetAxis ("Horizontal") > 0)
             {
                 mAnimator.SetInteger("Direction", 4);
                 hungry -= 0.001f;
